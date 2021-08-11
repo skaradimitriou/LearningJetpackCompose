@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearningJetpackCompose">
         <activity
-            android:name=".SecondActivity"
+            android:name=".ImageCardActivity"
             android:exported="true"
             android:label="@string/title_activity_second"
             android:theme="@style/Theme.LearningJetpackCompose.NoActionBar" />

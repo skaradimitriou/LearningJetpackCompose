@@ -26,8 +26,7 @@ class MainActivity : AbstractActivity() {
                     .fillMaxWidth()
                     .padding(16.dp)
             ) {
-                Text("Hello")
-                Text("World")
+                ButtonExample()
             }
         }
     }
@@ -47,7 +46,7 @@ fun Greeting(name: String) {
 @Composable
 fun ButtonExample() {
     val context = LocalContext.current
-    val intent = Intent(context, SecondActivity::class.java)
+    val intent = Intent(context, ImageCardActivity::class.java)
 
     Button(onClick = {
         context.startActivity(intent)
