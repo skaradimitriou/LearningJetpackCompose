@@ -30,12 +30,6 @@ class MainActivity : AbstractActivity() {
             SplashScreen(appName, desc)
         }
     }
-
-    override fun init() {}
-
-    override fun startOps() {}
-
-    override fun stopOps() {}
 }
 
 @Composable

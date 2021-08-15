@@ -10,12 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearningJetpackCompose">
         <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_photographer_screen"
+            android:theme="@style/Theme.LearningJetpackCompose.NoActionBar" />
+        <activity
             android:name=".ImageCardActivity"
             android:exported="true"
             android:label="@string/title_activity_second"
             android:theme="@style/Theme.LearningJetpackCompose.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".PhotographerScreen"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.LearningJetpackCompose.NoActionBar">

@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">LearningJetpackCompose</string>
     <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_photographer_screen">PhotographerScreen</string>
+    <string name="title_activity_main2">MainActivity2</string>
 </resources>
